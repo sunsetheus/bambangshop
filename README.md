@@ -103,5 +103,25 @@ do we still need DashMap or we can implement Singleton pattern instead?
 </div>
 
 #### Reflection Publisher-2
+<div style="text-align: justify;">
+<ol>
+<li> In the Model-View Controller (MVC) compound pattern, there is no “Service” and “Repository”. 
+Model in MVC covers both data storage and business logic. 
+Explain based on your understanding of design principles, 
+why we need to separate “Service” and “Repository” from a Model?
+</li>
+<br>
+<li>What happens if we only use the Model? 
+Explain your imagination on how the interactions between each model (Program, Subscriber, Notification) 
+affect the code complexity for each model?
+</li>
+<br>
+<li>Have you explored more about Postman? 
+Tell us how this tool helps you to test your current work. 
+you want to also list which features in Postman you are interested in or feel like it’s helpful to help 
+your Group Project or any of your future software engineering projects.
+</li>
+</ol>
+</div>
 
 #### Reflection Publisher-3
