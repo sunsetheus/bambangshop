@@ -1,5 +1,5 @@
 use std::thread;
-
+use rocket::log;
 use bambangshop::{Result, compose_error_response};
 use rocket::http::Status;
 use crate::model::notification::Notification;
@@ -58,7 +58,6 @@ impl NotificationService {
             ));
         }
         let product: Product = product_opt.unwrap();
-
         NotificationService.notify(&product.product_type, "PROMOTION", product.clone());
         return Ok(product);
     }
