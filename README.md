@@ -125,3 +125,20 @@ your Group Project or any of your future software engineering projects.
 </div>
 
 #### Reflection Publisher-3
+<div style="text-align: justify;">
+<ol>
+<li> Observer Pattern has two variations: 
+Push model (publisher pushes data to subscribers) and Pull model (subscribers pull data from publisher). 
+In this tutorial case, which variation of Observer Pattern that we use?
+</li>
+<br>
+<li> What are the advantages and disadvantages of using the other variation of Observer Pattern for this tutorial case? 
+(example: if you answer Q1 with Push, then imagine if we used Pull)
+</li>
+<br>
+<li> Explain what will happen to the program if we decide to not use multi-threading in the notification process.
+</li>
+</ol>
+</div>
+
+
