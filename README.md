@@ -140,5 +140,3 @@ In this tutorial case, which variation of Observer Pattern that we use?
 </li>
 </ol>
 </div>
-
-
